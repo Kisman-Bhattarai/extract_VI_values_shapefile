@@ -66,5 +66,4 @@ def extract_values(file, raster_layers, Affine_list, operations_list, write=Fals
     else:
         raise ValueError ("Either indices_layer or operations_list is not a list")
 
-a= extract_values("Plots.shp", [ndvi, ndri, cvi],[rast1, rast1, rast1], ["sum", "median", "mean"], write=False)
-print(a)
+## extract_values("Plots.shp", [ndvi, ndri, cvi],[rast1, rast1, rast1], ["sum", "median", "mean"], write=False)
